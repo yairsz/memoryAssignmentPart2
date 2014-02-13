@@ -22,6 +22,7 @@
 		B0B1AE0818AD5EFE00BA54DB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0B1ADE718AD5EFE00BA54DB /* UIKit.framework */; };
 		B0B1AE1018AD5EFE00BA54DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B0B1AE0E18AD5EFE00BA54DB /* InfoPlist.strings */; };
 		B0B1AE1218AD5EFE00BA54DB /* memoryAssignmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B1AE1118AD5EFE00BA54DB /* memoryAssignmentTests.m */; };
+		B0B1AE3718AD6C7500BA54DB /* YSObjectWithBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B1AE3618AD6C7500BA54DB /* YSObjectWithBlock.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		B0B1AE0D18AD5EFE00BA54DB /* memoryAssignmentTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "memoryAssignmentTests-Info.plist"; sourceTree = "<group>"; };
 		B0B1AE0F18AD5EFE00BA54DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B0B1AE1118AD5EFE00BA54DB /* memoryAssignmentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = memoryAssignmentTests.m; sourceTree = "<group>"; };
+		B0B1AE3518AD6C7500BA54DB /* YSObjectWithBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSObjectWithBlock.h; sourceTree = "<group>"; };
+		B0B1AE3618AD6C7500BA54DB /* YSObjectWithBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSObjectWithBlock.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				B0B1ADF818AD5EFE00BA54DB /* Main_iPad.storyboard */,
 				B0B1ADFB18AD5EFE00BA54DB /* YSViewController.h */,
 				B0B1ADFC18AD5EFE00BA54DB /* YSViewController.m */,
+				B0B1AE3518AD6C7500BA54DB /* YSObjectWithBlock.h */,
+				B0B1AE3618AD6C7500BA54DB /* YSObjectWithBlock.m */,
 				B0B1ADFE18AD5EFE00BA54DB /* Images.xcassets */,
 				B0B1ADEA18AD5EFE00BA54DB /* Supporting Files */,
 			);
@@ -254,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0B1AE3718AD6C7500BA54DB /* YSObjectWithBlock.m in Sources */,
 				B0B1ADFD18AD5EFE00BA54DB /* YSViewController.m in Sources */,
 				B0B1ADF418AD5EFE00BA54DB /* YSAppDelegate.m in Sources */,
 				B0B1ADF018AD5EFE00BA54DB /* main.m in Sources */,
@@ -475,6 +481,7 @@
 				B0B1AE1718AD5EFE00BA54DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B0B1AE1818AD5EFE00BA54DB /* Build configuration list for PBXNativeTarget "memoryAssignmentTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +490,7 @@
 				B0B1AE1A18AD5EFE00BA54DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
